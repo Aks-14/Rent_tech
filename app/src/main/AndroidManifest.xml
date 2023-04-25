@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RentalApp"
+        tools:targetApi="31">
+
+        <activity android:name=".CentersActivity" />
+        <activity android:name=".RentedDataActivity" />
+        <activity android:name=".MyRentedDevices" />
+        <activity android:name=".RentingRejection" />
+        <activity android:name=".RentingSuccess" />
+        <activity android:name=".AcceptActivity" />
+        <activity android:name=".RejectActivity" />
+        <activity android:name=".DetailsActivity" />
+        <activity android:name=".MyDataActivity" />
+        <activity android:name=".SuccessActivity" />
+        <activity android:name=".NumberActivity" />
+        <activity android:name=".Rent" />
+        <activity android:name=".AddDevice" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".SingleDataActivity" />
+        <activity android:name=".AddActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".StartActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
